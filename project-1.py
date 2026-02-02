@@ -1,14 +1,14 @@
 #BAG CHECKING & BOARDING PASS GENERATOR AT THE AIRPORT
 import sys
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta     
 
 banned_stuff = ['weapon', 'gun', 'bomb', 'explosive', 'knife', 'blade',
                 'drugs', 'acid', 'lighter fluid', 'grenade', 'sword', 'firearm']
 
 risky_stuff = ['scissors', 'hammer', 'screwdriver', 'lighter', 'power bank',
                'drill', 'wrench', 'pliers']
-
+ 
 countries = {
     'USA': 'US',
     'UK': 'UK',
